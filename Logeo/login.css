@@ -1,0 +1,39 @@
+body {
+    font-size: 17px;
+    margin: auto;
+    color: white;
+    background-color: #c4c1e4;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.cabecera {
+    background-color: #780088;
+}
+
+.menu {
+    margin: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.letra {
+    font-family: 'Spartan', sans-serif;
+}
+
+.contenido {
+    overflow: hidden;
+    color: black;
+    width: 90%;
+    max-width: 800px;
+    border: 15px solid #880061;
+    margin: 25px auto;
+    background-color: #f5bbda;
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}

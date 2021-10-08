@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar usuario</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1>Registro nuevo usuario</h1>
+    <header>
+    <div class="contenido">
+        <p>Llena tus datos</p>
+    </div>
+    <div>
+    <form>
+        <div class="contenido">
+        <p>
+            <div class="contenido">
+                <label for="nombre" class="form-label">Nombre completo </label>
+                <input type="text" name="nom" class="form-control" id="nombre" placeholder="Escribe tu nombre" required>
+              </div>
+        </p>
+        <p>
+            <div class="contenido">
+                <label for="usuario" class="form-label">Usuario </label>
+                <input type="text" name="usu" class="form-control" id="usuario" placeholder="Escribe tu usuario" required>
+            </div>
+        </p>
+        <p>
+            <div class="contenido">
+                <label for="password" class="form-label">Contraseña </label>
+                <input type="password" name="pass" class="form-control" id="password" placeholder="Escribe tu contraseña" required>
+            </div>
+        </p>
+        </div>
+        <div class="contenido">
+            <input type="submit" value="Enviar" class="botones">
+        </div>
+        </div>
+    </div>
+    <script src="validar.js"></script>
+    </form>
+</body>
+</html>
